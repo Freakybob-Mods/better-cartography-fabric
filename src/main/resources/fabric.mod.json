@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "better_cartography_fabric",
+  "version": "1.0.0",
+  "name": "Better Cartography Fabric",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "accessWidener": "better_cartography_fabric.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.bettercartographyfabric.BetterCartographyFabricMod"
+    ],
+    "client": [
+      "net.mcreator.bettercartographyfabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
